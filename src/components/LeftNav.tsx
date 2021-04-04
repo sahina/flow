@@ -1,7 +1,5 @@
-import "./LeftNav.scss";
-
 function LeftNav() {
-  let style = {
+  let logoStyle = {
     fontSize: "2rem",
     color: "cornflowerblue",
     marginRight: "1rem",
@@ -9,12 +7,11 @@ function LeftNav() {
 
   return (
     <div className="p-3 bg-white">
-      {/* <div className="p-3 bg-white" style={{ width: "200px" }}></div> */}
       <a
         href="/"
         className="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"
       >
-        <i className="bi bi-compass" style={style}></i>
+        <i className="bi bi-compass" style={logoStyle}></i>
         <span className="fs-5 fw-semibold">Voyager</span>
       </a>
       <ul className="list-unstyled ps-0">

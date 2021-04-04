@@ -1,5 +1,3 @@
-import "./Inspector.scss";
-
 function Inspector() {
   return (
     <div id="inspector">

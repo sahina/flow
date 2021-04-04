@@ -1,5 +1,3 @@
-import "./Header.scss";
-
 function Header() {
   return (
     <nav id="header" className="navbar navbar-expand-lg" aria-label="navbar">

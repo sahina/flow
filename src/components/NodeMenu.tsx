@@ -1,9 +1,15 @@
-import "./NodeMenu.scss";
+import ApiNode from "./nodes/ApiNode";
+import ViewNode from "./nodes/ViewNode";
 
 function NodeMenu() {
   return (
-    <div id="nodemenu">
-      <p>node menu</p>
+    <div>
+      <div className="node">
+        <ApiNode />
+      </div>
+      <div className="node">
+        <ViewNode />
+      </div>
     </div>
   );
 }

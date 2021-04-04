@@ -8,3 +8,27 @@ code {
   font-family: 'Fira Code', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.node {
+  padding: 5px;
+  border: 2px solid red;
+  width: 80px;
+  height: 80px;
+}
+
+#inspector {
+  padding: 5px;
+  border: 2px solid green;
+}
+
+.flex-fixed-width-item {
+  flex: 0 0 300px;
+}
+
+.flex-node {
+  flex: 0 0 80px;
+}
+
+.flex-inspector {
+  flex: 0 0 400px;
+}
