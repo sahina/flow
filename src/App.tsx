@@ -1,9 +1,13 @@
-import './style/main.scss';
+import "./style/main.scss";
+
+import LeftNav from "./components/LeftNav";
+// import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <p>flow</p>
+      {/* <Header /> */}
+      <LeftNav />
     </div>
   );
 }
