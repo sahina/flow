@@ -1,14 +1,14 @@
+import { Route, Switch } from "react-router-dom";
+import ExploreView from "./views/ExploreView";
 import "./style/main.scss";
-
-import LeftNav from "./components/LeftNav";
-// import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      {/* <Header /> */}
-      <LeftNav />
-    </div>
+    <main>
+      <Switch>
+        <Route path="/" component={ExploreView} />
+      </Switch>
+    </main>
   );
 }
 

@@ -2,7 +2,7 @@ import "./NodeMenu.scss";
 
 function NodeMenu() {
   return (
-    <div>
+    <div id="nodemenu">
       <p>node menu</p>
     </div>
   );

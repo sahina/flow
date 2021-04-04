@@ -8,7 +8,8 @@ function LeftNav() {
   };
 
   return (
-    <div className="p-3 bg-white" style={{ width: "200px" }}>
+    <div className="p-3 bg-white">
+      {/* <div className="p-3 bg-white" style={{ width: "200px" }}></div> */}
       <a
         href="/"
         className="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"
@@ -35,18 +36,13 @@ function LeftNav() {
               </li>
               <li>
                 <a href="/" className="link-dark rounded">
-                  Updates
-                </a>
-              </li>
-              <li>
-                <a href="/" className="link-dark rounded">
-                  Reports
+                  Nodes
                 </a>
               </li>
             </ul>
           </div>
         </li>
-        <li className="mb-1">
+        {/* <li className="mb-1">
           <button
             className="btn btn-toggle align-items-center rounded collapsed"
             data-bs-toggle="collapse"
@@ -79,8 +75,8 @@ function LeftNav() {
               </li>
             </ul>
           </div>
-        </li>
-        <li className="mb-1">
+        </li> */}
+        {/* <li className="mb-1">
           <button
             className="btn btn-toggle align-items-center rounded collapsed"
             data-bs-toggle="collapse"
@@ -113,7 +109,7 @@ function LeftNav() {
               </li>
             </ul>
           </div>
-        </li>
+        </li> */}
         <li className="border-top my-3"></li>
         <li className="mb-1">
           <button
