@@ -8,16 +8,16 @@ function ExploreView() {
     <div>
       <Header />
       <div className="row justify-content-md-center">
-        <div className="flex-fixed-width-item">
+        <div className="flex-300">
           <LeftNav />
         </div>
-        <div className="col flex-node">
+        <div className="col flex-80">
           <NodeMenu />
         </div>
         <div className="col">
           <p>canvas</p>
         </div>
-        <div className="col flex-inspector">
+        <div className="col flex-400">
           <Inspector />
         </div>
       </div>

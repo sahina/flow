@@ -1,5 +1,6 @@
 import ApiNode from "./nodes/ApiNode";
 import ViewNode from "./nodes/ViewNode";
+import KeyPair from "./nodes/KeyPair";
 
 function NodeMenu() {
   return (
@@ -9,6 +10,9 @@ function NodeMenu() {
       </div>
       <div className="node">
         <ViewNode />
+      </div>
+      <div className="node">
+        <KeyPair />
       </div>
     </div>
   );
